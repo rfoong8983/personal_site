@@ -128,7 +128,7 @@ ul li {
 #header.fixed .header-content {
 	border-bottom: 0;
 	/* padding: 25px 0; */
-	padding-top: 45px;
+	padding-top: 40px;
 	padding-bottom: 0;
 }
 #header.fixed .nav-toggle {
@@ -324,8 +324,13 @@ ul li {
 }
 .carousel-caption h3 {
 	font-family: "Open Sans", sans-serif;
-	color: #2d3033;
-	text-shadow: none;
+	color: #bababa;
+	text-shadow:
+		-1px -1px 0 #4a4a4a,
+		1px -1px 0 #4a4a4a,
+		-1px 1px 0 #4a4a4a,
+		1px 1px 0 #4a4a4a
+	/* text-shadow: none; */
 	font-size: 31px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -333,7 +338,8 @@ ul li {
 }
 .carousel-caption p {
 	font-family: "Open Sans", sans-serif;
-	color: #6c7279;
+	/* color: #6c7279; */
+	color: #bababa;
 	text-shadow: none;
 	font-size: 13px;
 	font-weight: 400;
