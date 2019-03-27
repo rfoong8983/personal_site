@@ -118,13 +118,18 @@ ul li {
 	font-weight: 700;
 	float: left;
 	text-transform: uppercase;
+	height: 55px;
+	width: 55px;
+	padding-bottom: 20px;
 }
 #header.fixed {
 	background-color: #fff;
 }
 #header.fixed .header-content {
 	border-bottom: 0;
-	padding: 25px 0;
+	/* padding: 25px 0; */
+	padding-top: 45px;
+	padding-bottom: 0;
 }
 #header.fixed .nav-toggle {
 	top: 18px;
@@ -302,6 +307,10 @@ ul li {
 .item, .active, .carousel-inner {
 	height: 100%;
 }
+.carousel-inner {
+	display: flex;
+	justify-content: center;
+}
 .carousel-caption {
 	bottom: 40%;
 	color: #fff;
@@ -368,6 +377,19 @@ ul li {
 }
 .services-content {
 	margin: 50px;
+}
+#logo {
+	position: fixed;
+	top: 22px;
+	width: 55px;
+	height: 55px;
+}
+#makeColumns {
+	display: flex;
+	justify-content: flex-start;
+}
+#makeMargin {
+	margin-left: 12px;
 }
 .services-content li a {
 	color: #6c7279;
