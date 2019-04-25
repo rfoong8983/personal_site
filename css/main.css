@@ -325,12 +325,13 @@ ul li {
 .carousel-caption h3 {
 	font-family: "Open Sans", sans-serif;
 	/* color: #bababa; */
-	color: rgb(218, 216, 216);
-	text-shadow:
+	color: #fff;
+	/* color: rgb(218, 216, 216); */
+	/* text-shadow:
 		-1px -1px 0 #4a4a4a,
 		1px -1px 0 #4a4a4a,
 		-1px 1px 0 #4a4a4a,
-		1px 1px 0 #4a4a4a
+		1px 1px 0 #4a4a4a */
 	/* text-shadow: none; */
 	font-size: 31px;
 	font-weight: 700;
@@ -340,7 +341,8 @@ ul li {
 .carousel-caption p {
 	font-family: "Open Sans", sans-serif;
 	/* color: #6c7279; */
-	color: #bababa;
+	/* color: #bababa; */
+	color: #fff;
 	text-shadow: none;
 	font-size: 13px;
 	font-weight: 600;
@@ -355,6 +357,16 @@ ul li {
 .carousel-control {
 	opacity: 1;
 	text-shadow: none;
+}
+#splash {
+	position: absolute;
+	font-size: 48px;
+	top: -65px;
+}
+#splash2 {
+	position: absolute;
+	top: 85px;
+	text-transform: uppercase;
 }
 /* ------------------------------------------------------------------------------
 	 Services
