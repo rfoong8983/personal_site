@@ -466,6 +466,7 @@ ul li {
 	-webkit-transition: all ease .5s;
 	-moz-transition: all ease .5s;
 	transition: all ease .5s;
+	overflow: hidden;
 }
 #portfolio .portfolio-item .portfolio-link .captionLinked:hover {
 	/* text-shadow:
@@ -660,4 +661,15 @@ ul li {
 	font-size: 13px;
 	font-weight: 400;
 	margin-top: 7%;
+}
+
+#filler {
+	background-color: rgb(50, 61, 77);
+	height: 100%;
+	width: 100%;
+}
+
+#fillerWrapper {
+	background-color: rgb(50, 61, 77);
+	overflow: hidden;
 }
